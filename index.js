@@ -3,7 +3,7 @@ current_min = 0
 current_max = (5e+14)*2
 let number_box = document.getElementById("number")
 
-number_box.innerText = "000000000000000"
+number_box.innerText = number.toString()
 
 function greater(){
     current_min = number;
